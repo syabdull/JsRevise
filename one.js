@@ -1,11 +1,16 @@
-//js program to print the reverse of a number
+//js program to find the inverse of a number
 
-function reverseOfNumber(num) {
-  while (num != 0) {
-    let rem = num % 10;
-    console.log(rem);
-    num = Math.floor(num / 10);
+function inverseNumber(num) {
+  let temp = num;
+  let resultantNumber = 0;
+  let count = 1;
+  while (temp != 0) {
+    let pos = temp % 10;
+    temp = Math.floor(temp / 10);
+    let addingNum = count * Math.pow(10, pos - 1);
+    resultantNumber = resultantNumber + addingNum;
+    count++;
   }
+  console.log(resultantNumber);
 }
-
-reverseOfNumber(566442);
+inverseNumber(21453);
