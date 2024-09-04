@@ -1,0 +1,24 @@
+{
+  "name": "bounty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "one.js",
+  "scripts": {
+    "start": "node one.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syabdull/JsRevise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syabdull/JsRevise/issues"
+  },
+  "homepage": "https://github.com/syabdull/JsRevise#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
